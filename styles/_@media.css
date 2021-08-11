@@ -1,0 +1,104 @@
+@media screen and (max-width: 576px) {
+    .header {
+        height: 54px;
+    }
+
+    .phone-img {
+        width: 100%;
+    }
+
+    .welcome-info {
+        margin-top: -120px;
+        order: 2;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .button {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .work-text,
+    .work-card,
+    .article-title,
+    .article-card,
+    .footer-menu a,
+    .welcome-info {
+        text-align: center;
+    }
+
+    .work-cards {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work-card,
+    .footer-menu a,
+    .footer-link,
+    .welcome__row,
+    .welcome-info,
+    .welcome__row,
+    .welcome-info {
+        align-items: center;
+    }
+
+    .work-card {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .wlc-img,
+    .img-bg,
+    .header-button,
+    .header-link a {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+        z-index: 3;
+    }
+
+    .article-cards,
+    .article-card,
+    .footer-content,
+    .footer-link,
+    .work-cards {
+        justify-content: center;
+    }
+
+    .footer-content,
+    .footer-link,
+    .welcome-info,
+    .footer-menus{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menus,
+    .footer-icons {
+        padding-bottom: 32px;
+    }
+    .footer-menus {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 576px) {
+
+    .phone-img,
+    .menu-btn__svg,
+    .nomenu-btn__svg {
+        display: none;
+    }
+    .container{
+        width: 90%;
+    }
+    .welcome .container{
+        width: 100%;
+    }
+}
